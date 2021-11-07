@@ -39,7 +39,7 @@ def plotFitnessFromCSV(csv_file_path):
     csv_title = csv_file_path.split("/")[-1][:-4]
     # Num_gen = csv_title.split("")
     # print(csv_title)
-    fig = plt.figure(figsize=(10, 10))
+    fig = plt.figure(figsize=(12, 12))
     plt.plot(generations, distances)
     plt.xlabel("Generations")
     plt.ylabel("Min distance")
