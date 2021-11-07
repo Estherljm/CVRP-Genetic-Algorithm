@@ -2,7 +2,7 @@
     "Number_of_customers": 25,
     "customer_1": {
         "coordinates": {
-            "x": 45.0,
+            "x": 43.0,
             "y": 68.0
         },
         "demand": 10.0,
